@@ -2,3 +2,19 @@ There are three components required to run a single node cluster (minikube)
 1. Virtual Box
 2. minikube.exe
 3. kubectl
+
+Commands That I ran to deploy minikube single node cluster
+1. minikube delete -> To delete any minikube particles
+2. minikube start -> To deploy a Virtual Box minikube VM and a Kubernetes cluster
+3. kubectl get pods --all-namespaces
+4. kubectl get nodes -o wide
+5. kubectl cluster-info
+6. kubectl cluster-info dump
+7. kubectl run hello-minikube --image=k8s.gcr.io/echoserver:1.4 --port=8080
+8. kubectl get pods
+9. kubectl expose deployment hello-minikube --type=NodePort
+10. minikube service hello-minikube --url
+11. kubectl delete deployment hello-minikube
+12. minikube stop
+13. minikube delete
+
