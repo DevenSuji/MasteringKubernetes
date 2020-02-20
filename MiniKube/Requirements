@@ -1,0 +1,4 @@
+There are three components required to run a single node cluster (minikube)
+1. Virtual Box
+2. minikube.exe
+3. kubectl
